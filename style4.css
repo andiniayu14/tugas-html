@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+background-color: rgb(44, 43, 43);
+width: 100%;
+justify-content: space-between;
+}
+.header .nav{
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    width: 60%;
+}
+.link {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+
+}
+
+.link a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.text{
+    color: white;
+    /* margin-left: 20%;
+    margin-top: 5%; */
+    font-size: 20px;
+    padding: 5% 10% 5% 10%;
+}
+
+.buttons {
+    padding: 15px 15px;
+    color: black;
+    border-radius: 0.5rem;
+    background-color: white;
+    margin-top: 5px;
+    margin-left: 10%;
+    margin-bottom: 80px;
+    font-size: 15px;
+    border: 0;
+    cursor: pointer;
+}
+
+.buttons:hover{
+    background-color: rgb(44, 43, 43);
+    color: white;
+}
+
+.about {
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 3%;
+    font-size: 20px;
+}
+
+.container {
+    /* padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 5%; */
+    padding: 5% 10% 5% 10%;
+
+}
+
+.our {
+    margin-top: 3%;
+    font-size: 20px;
+    width: 100%;
+
+}
+.p {
+    margin-top: 0;
+}
+#team{
+    padding: 0% 5% 5% 10%;
+}
+.team {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 5%;
+}
+.contact{
+    padding: 5% 10% 5% 10%;
+    font-size: 20px;
+}
+
+form {
+    display: block;
+    margin-top: 40px;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+label {
+    display: block;
+}
+
+footer {
+    padding: 1%;
+    background-color: rgb(44, 43, 43);
+    color: white;
+    text-align: center;
+}
+.i {
+    background-color: rgb(44, 43, 43);
+    border: 0;
+    color: white;
+    border-radius: 5px;
+}
